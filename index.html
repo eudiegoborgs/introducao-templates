@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <title>Templates</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS WebSlides -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/server-animation.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
+        <ul>
+          <li class="github">
+              <a rel="external" href="https://github.com/ferreirabdiego" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>Github</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <article id="webslides" class="">
+        <section>
+         <span class="background" style="background-image:url('static/images/timesquare.jpg')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-70 aligncenter">
+            <h1 class="bg-white">
+              <strong>Desenvolvimento de Templates</strong><br>
+              <small class="text-intro">Do funcionamento básico de um player até criação de um template</small>
+            </h1>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-80">
+            <h3><strong>O que é o player 4YouSee?</strong></h3>
+            <p class="text-intro">O player 4YouSee foi criado para exibir conteúdos (imagens, vídeos e HTML5) nos mais diversos tipos de equipamentos/dispositivos. Ele precisa se conectar a internet para baixar os conteúdos, a partir desta conexão ele consegue funcionar mesmo offline.</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-80 aligncenter">
+            <h3><strong>Como funciona o player 4YouSee?</strong></h3>
+            <img src="static/images/player-fluxo.png" alt="">
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-80 aligncenter">
+            <h2><strong>O que é um template?</strong></h2>
+            <p class="text-intro">
+              No caso do 4YouSee, o template é um conteúdo feito em HTML5 para ser visualizado nos players. Ele pode ser dinamico ou estatico, pode conter noticias, efeitos e funcionalidades.
+            </p>
+            <!-- .end .bg-white shadow -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h3><strong>Como um template dinamico recebe os dados?</strong></h3>
+                <p class="text-intro">O template pode receber os dados de 2 maneiras:</p>
+                <div class="bg-white shadow">
+                  <ul class="flexblock reasons">
+                    <li>
+                      <h2>Offline (Notícias - 4Yousee)</h2>
+                      Neste caso o template não precisa se conectar a internet porque todos os dados necessarios já foram baixados pelas rotinas do player.
+                    </li>
+                    <li>
+                      <h2>Online (API, Iframe, URL - Internet)</h2>
+                      Este é um caso especial onde o template recebe as informações da internet e só funcionará se o player estiver conectado.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <div class="box">
+                  <div class="comp"></div>
+                  <div class="loader"></div>
+                  <div class="con"></div>
+                  <div class="byte"></div>
+                  <div class="server"></div>
+                </div>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-80 aligncenter">
+            <h2><strong>Vamos criar um template?</strong></h2>
+            <p class="text-intro">
+              Para criar um template é necessario conhecimento em HTML5, CSS e JavaScript. Escolham um modelo e vamos começar.
+            </p>
+            <!-- .end .bg-white shadow -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+         <span class="background" style="background-image:url('static/images/work.gif')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-70 aligncenter">
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-50 aligncenter">
+            <h1>Fim</h1>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
